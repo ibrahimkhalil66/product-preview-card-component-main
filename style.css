@@ -121,13 +121,6 @@ body {
   font-size: 0.925rem;
 }
 
-.button[data-icon="shopping-cart"]::before {
-  content: "";
-  background-image: url(/images/icon-cart.svg);
-  width: 15px;
-  height: 16px;
-}
-
 .button:is(:hover, :focus) {
   background-color: var(--clr-primary-700);
 }
